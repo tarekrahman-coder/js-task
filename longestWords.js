@@ -1,6 +1,5 @@
-const words = 'I am learning Programming to become a programmer';
-
-const arr = words.split(' ');
+const word = 'I am learning Programming to become a programmer';
+const arr = word.split(' ');
 
 let longestWord = arr[0]
 for(let i = 1; i < arr.length; i++){
